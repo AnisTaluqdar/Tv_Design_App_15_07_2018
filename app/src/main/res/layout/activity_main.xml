@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#8B0000"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="TV1"
+                android:gravity="center"
+
+                android:background="#f4dc42"
+                android:textSize="40dp"
+                android:layout_margin="40dp"
+
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="TV2"
+                android:gravity="center"
+                android:background="#42e5f4"
+                android:textSize="40dp"
+                android:layout_margin="40dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="TV3"
+                android:gravity="center"
+                android:background="#c242f4"
+                android:textSize="40dp"
+                android:layout_margin="40dp"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="TV4"
+                android:gravity="center"
+                android:background="#f4eb42"
+                android:textSize="40dp"
+                android:layout_margin="40dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="TV5"
+                android:gravity="center"
+
+                android:background="#f4dc42"
+                android:textSize="40dp"
+                android:layout_margin="40dp"
+
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="TV6"
+                android:gravity="center"
+                android:background="#42e5f4"
+                android:textSize="40dp"
+                android:layout_margin="40dp"
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="অভি"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffcc00"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
